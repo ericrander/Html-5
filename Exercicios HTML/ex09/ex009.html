@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes, ou aumente e diminua o tamanho em seu navegador. </p>
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/Paisagem-p.webp" type="image/webp">
+        <source media="(max-width:1075px )" srcset="Imagens/Paisagem-m.webp" type="image/webp">
+        <img src="Imagens/Paisagem-g.webp" alt="Paisagem Grande">
+    </picture>
+    <h1>Exibindo audios: </h1>
+    <p>Podemos intrudizir audios usando as tags a seguir em dois modos:</p>
+    
+    <audio src="midia/Baby Sister.mp3" preload="metadata" loop controls></audio>
+    
+</body>
+</html>
