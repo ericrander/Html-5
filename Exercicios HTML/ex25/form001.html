@@ -17,24 +17,19 @@
 </head>
 <body>
     <h1>Meu primeiro Formulário</h1>
-    <form action="cadastro.php">
 
-        <label for="inome">
-            <p>Nome:
-        </label> 
-            <input type="text" name="nome" id="inome"></p>
+    <form action="cadastro.php" method="post">
+        
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
 
-            <label for="isobrenome">
-            <p>Sobrenome:
-            </label>
-            <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
 
-            <label for="iemail">
-                <p>Email: 
-            </label> 
-            <input type="email" name="email" id="iemail"></p>
-
-            <input type="submit" value="Cadastrar">
+        <p><label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail">
+        
+        <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
 </html>
