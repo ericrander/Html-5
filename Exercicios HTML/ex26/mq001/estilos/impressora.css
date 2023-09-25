@@ -2,7 +2,6 @@
 
 * {
     padding: 0px;
-    margin: ;
 }
 
 html {
@@ -12,4 +11,10 @@ html {
 }
 menu {
     display: none;
+}
+p {
+    text-indent: 20px;
+}
+article::after {
+    content: 'Esse artigo foi impresso atravez do site www.randerinforma.com';
 }
